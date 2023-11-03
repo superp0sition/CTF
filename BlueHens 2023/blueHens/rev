@@ -1,0 +1,28 @@
+len: 34
+key: 
+The input length must be 34 characters.
+The input must start with "UDCTF{".
+The 7th character of the input must be 'h'.
+The sum of the character codes of the 8th and 9th characters must be 15 more than the character code of the 10th character.
+The product of the character codes of the 7th and 9th characters must be 2652.
+The 7th character code minus the 9th character code must be 1.
+The 10th character must be the same as the 14th character.
+The 14th character must be the same as the 21st character.
+The 10th character must be the same as the 25th character.
+The 21st character must be the same as the 27th character.
+The ceiling of half the character code of the 10th character must be the same as the 12th character code.
+The difference between 952 and the difference of squares of the 11th and 13th characters must be 0.
+Characters 14 to 21 must be equal to "sy4wla_" when reversed.
+Characters 22 to 24 must be the same as characters 6 to 8.
+The remainder when the character code of the 24th character is divided by 97 must be 3.
+Characters 14 to 16 must be the same as the reverse of characters 26 to 28.
+The complex number formed by the 28th and 29th character codes must be the conjugate of the complex number (76, -49).
+The least common multiple (LCM) of the character codes of the 30th and 31st characters must be 6640.
+The character code of the 30th character must be greater than the character code of the 31st character.
+The character code of the 32nd character must be the result of subtracting the sum of the character codes of the 31st and 30th characters from the 24th character code.
+The character code of the 33rd character must be 125.
+UDCTF{h4v3_?0?_alw4ys_h4d_a_?????}
+
+ if (not (= (+ (char-code (char input 9)) 15) (- (char-code (char input 8)) (char-code (char input 7)))))
+
+input[9] + 15 == input[8] - input[7]
