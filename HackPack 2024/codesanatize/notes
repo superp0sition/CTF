@@ -1,0 +1,40 @@
+# Known Sus
+ExternalMerger.mergeValues : wrong desc
+RDD.unpersist : default blocking = None
+Statistics.corr : code was removed
+require_minimum_pyarrow_version : code was removed to check version
+heapreplace : does not pop / push the heap
+load_image_file : sharan
+_check_series_localize_timestamps : datatime64 check removed at end
+
+# Known bad (using OS)
+approx_count_distinct
+array_join
+DataFrameReader.jdbc
+DataFrameReader.jdbc
+DataFrameWriter.save
+DataFrameWriter.saveAsTable
+decode
+KinesisUtils.createStream
+last_day
+levenshtein
+lpad
+nsmallest
+ntile
+repeat
+RuntimeConfig.get
+split
+TrainValidationSplit._from_java
+
+# Known bad (using eval)
+_int_size_to_type
+Column.when
+DataFrame.exceptAll
+DataFrame.rdd
+DataFrame.schema
+DataFrame.toJSON
+IDF.fit
+install_exception_handler
+ntile
+ParamGridBuilder.build
+StandardScaler.fit

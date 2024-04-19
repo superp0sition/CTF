@@ -1,0 +1,13 @@
+[
+    "split",
+    "IDF.fit",
+    "_int_size_to_type",
+    "ParamGridBuilder.build",
+    "DataFrame.toJSON",
+    "DataFrameWriter.save",
+    "lpad",
+    "Column.when",
+    "DataFrame.explain",
+    "StandardScaler.fit",
+    "DataFrame.rdd"
+]
